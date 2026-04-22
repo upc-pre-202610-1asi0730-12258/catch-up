@@ -19,7 +19,7 @@ This document contains the user stories for the CatchUp application.
 ### US003: Engage with Ethical and Inclusive Features
 **As a** User, **I want to** engage with features that promote inclusivity and transparency, **so that** I can interact with the application in my preferred language and understand its data sources.
 - **Given** the User is using the CatchUp application, **when** the User chooses a language (English or Spanish), **then** the User experiences the application in the chosen language.
-- **Given** the User accesses the CatchUp application, **when** the User seeks attribution information, **then** the User is presented with attributions for NewsAPI.org and Clearbit Logo API.
+- **Given** the User accesses the CatchUp application, **when** the User seeks attribution information, **then** the User is presented with attributions for NewsAPI.org and Logo.dev Logo API.
 
 ### US004: Interact with Articles
 **As a** User, **I want to** share articles or access their original source, **so that** I can distribute news or read the full content.
