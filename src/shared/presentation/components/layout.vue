@@ -8,6 +8,10 @@ import UnavailableContent from "../../../news/presentation/components/unavailabl
 import SourceList from "../../../news/presentation/components/source-list.vue";
 
 const drawerVisible = ref(false);
+
+/**
+ * Toggles the visibility of the navigation drawer.
+ */
 const toggleDrawer = () => {
   drawerVisible.value = !drawerVisible.value
 };
@@ -17,6 +21,11 @@ const errors = computed(() => newsStore.errors);
 let articles = computed(() => newsStore.articles);
 const rerenderKey = ref(0);
 
+/**
+ * Sets the current source in the news store and updates the article list.
+ *
+ * @param {import('../../../news/domain/model/source.entity.js').Source} source - The selected source.
+ */
 const setSource = source => {
   console.log(source);
   newsStore.setCurrentSource(source);
