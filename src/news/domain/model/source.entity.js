@@ -15,6 +15,15 @@
  * @remarks
  * This model belongs to the domain layer and should stay independent from
  * transport details such as API response wrappers.
+ *
+ * @property {string} id - The unique identifier of the source.
+ * @property {string} name - The name of the source.
+ * @property {string} description - A description of the source.
+ * @property {string} url - The URL of the source.
+ * @property {string} category - The category of the source.
+ * @property {string} language - The language of the source.
+ * @property {string} country - The country of the source.
+ * @property {string} urlToLogo - The URL to the source's logo.
  */
 export class Source {
     /**
