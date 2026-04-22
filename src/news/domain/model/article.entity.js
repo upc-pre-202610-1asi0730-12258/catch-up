@@ -12,6 +12,13 @@ import {Source} from "./source.entity.js";
 
 /**
  * Domain entity representing a news article.
+ *
+ * @property {string} title - The title of the article.
+ * @property {string} description - A brief description of the article.
+ * @property {string} url - The URL to the full article.
+ * @property {string} urlToImage - The URL to the article's image.
+ * @property {Source | null} source - The source of the article.
+ * @property {Date} publishedAt - The publication date of the article.
  */
 export class Article {
     /**
